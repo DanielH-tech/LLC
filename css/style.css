@@ -147,8 +147,18 @@ body{
         border-top: 1px solid #EEEEEE;
     }
 }
-
-.navbar .navbar-brand,
+.navbar-brand{
+    padding:50px;
+}
+@media screen and (max-width: 400px) {
+    .navbar-brand{
+        padding:0 5px 0 5px;
+    }
+}
+.brand{
+    height: 50px !important;
+}
+.navbar .brand,
 .navbar a.btn {
     height: 75px;
 }
